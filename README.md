@@ -17,10 +17,11 @@ source env/bin/activate
 ### install related libraries (Step 3):
 pip install -r requirements.txt
 
-### Prompt to refine ground truth future work by gpt
+### Prompt to refine ground truth future work by gpt 
+  ```plaintext
     "Your task is to refine the "Future Work" section of a scientific article by extracting only sentences
     that are directly related to future research directions. Please focus on retaining content that discusses potential
-    areas for future investigation, further research needed, or additional strategies to improve the current study." 
+    areas for future investigation, further research needed, or additional strategies to improve the current study." ```
     
 ### Prompt to generate future 
  ```plaintext
@@ -28,7 +29,7 @@ pip install -r requirements.txt
     that are directly related to future research directions. Please focus on retaining content that discusses potential
     areas for future investigation, further research needed, or additional strategies to improve the current study." 
 
-## Code and Datasets
+### Code and Datasets
 
 ```plaintext
 
