@@ -21,7 +21,15 @@ pip install -r requirements.txt
     "Your task is to refine the "Future Work" section of a scientific article by extracting only sentences
     that are directly related to future research directions. Please focus on retaining content that discusses potential
     areas for future investigation, further research needed, or additional strategies to improve the current study." 
+### Prompt to generate future 
+"You are an AI trained to analyze scientific research and suggest future directions based on the content of a paper.
+    Below, you will find sections from a scientific article including the Abstract, Introduction, Conclusion,
+    Limitation,Experiment and Results,Related Work,Methodology of a scientific paper.
+    Based on these details, please generate comprehensive and plausible future work suggestions that could extend the research findings,
+    address limitations, and propose new avenues for exploration.
+    Generate a future work based on these texts. Future work should be within 100 words."
 
+    
 ## Code and Datasets
 
 ```plaintext
